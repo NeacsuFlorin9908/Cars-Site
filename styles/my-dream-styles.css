@@ -1,0 +1,116 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #e5e7eb;
+}
+section {
+  padding: 5rem 0 5rem;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.navigation{
+    width: 100%;
+    height: 5rem;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+    
+}
+.navigation .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
+.navigation .container .container-logo{
+    display: flex;
+    justify-content: left;
+    width: 25%;
+    padding-left: 10rem;
+    
+}
+.navigation .container h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.navigation .container ul{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.navigation .container ul li a{
+    color: #F9FAF8;
+    height: 100%;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.navigation .container ul li a.active{
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+section.cars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.cars .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 75%;
+    margin-top: 5rem;
+}
+section.cars .container .container-image img{
+    width: 500px;
+    height: 500px;
+    border: 5px solid #3882f6;
+    border-radius: 25%;
+}
+section.cars .container .container-information{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 75%;
+    margin-top: 3rem;
+}
+section.cars .container .container-information h1{
+    font-size: 40px;
+    font-weight: 1000;
+}
+section.cars .container .container-information ul{
+    font-size: 24px;    
+}
+section.cars .container .container-information p{
+    font-size: 18px;
+    text-align: justify;    
+}
+footer{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}

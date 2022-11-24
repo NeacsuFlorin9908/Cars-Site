@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: 0;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #E5E7EB;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.form{
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #1F2937;
+    box-shadow: 10px 10px 10px darkblue;
+}
+h1{
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}
+p{
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}
+input{
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+.container .register{
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.container .register .email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.container .register .email input{
+    width: 75%;
+} 
+.container .register .email label{
+    color: white;
+}
+.container .register .password{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.container .register .password input{
+    width: 75%;
+}
+.container .register .password label{
+    color: white;
+}
+.container .register .password-repeat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.container .register .password-repeat input{
+    width: 75%;
+}
+.container .register .password-repeat label{
+    color: white;
+}
+.container .register .checkbox{
+    gap: 1rem;
+}
+.container .register .checkbox label{
+    color: white;
+}
+.btn-primary{
+    width: 6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB; 
+    background-color: #3882F6;
+    
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    background-color: #1F2937;
+    padding-top: 1rem;
+}
+.btn-primary:hover {
+  box-shadow: 0 1rem 1rem darkblue;
+}
