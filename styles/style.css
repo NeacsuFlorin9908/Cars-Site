@@ -157,7 +157,7 @@ section.second-section .random-information .images{
     gap: 5rem;
     
 }
-section.second-section .random-information .images .image{
+section.second-section .random-information .images figure{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -167,13 +167,13 @@ section.second-section .random-information .images .image{
     height: 15rem;
     
 }
-section.second-section .random-information .images .image img{
+section.second-section .random-information .images figure img{
     width: 10rem;
     height: 10rem;
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
-section.second-section .random-information .images .image p{
+section.second-section .random-information .images figure figcaption{
     text-align: center;
     font-size: 12px;
 }
@@ -191,7 +191,7 @@ section.third-section .quotes{
     padding: 3rem;
 
 }
-section.third-section .quotes p{
+section.third-section .quotes blockquote{
     width: 100%;
     text-align: justify;
     font-weight: 100;
